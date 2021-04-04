@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(27, 175, 52);
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(330deg, #1a1e1d, #565656, #21bb56);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+    height: 100%;
+}
+
+number {
+    color: rgb(255, 72, 72);
+}
+
+h1 {
+    color: white;
+}
+
+#ideia {
+    color: black;
+}
+
+#txt {
+    border-radius: 5%;
+    width: 200px;
+    height: 30px;
+}
+
+#Dlogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#commands {
+    color: rgb(201, 200, 199);
+    font: normal 12pt Arial;
+    text-align: left;
+}
+
+#home {
+    color: rgb(161, 160, 160);
+    font: normal 15pt Arial;
+    text-align: left;
+}
+
+#top {
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    text-align: left;
+}
+
+#logo {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#box {
+    border-radius: 1.7%;
+    text-align: left;
+    background-color: black;
+    width: 650px;
+    height: 2150px;
+    color: greenyellow;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 27% 0%
+    }
+    50% {
+        background-position: 74% 100%
+    }
+    100% {
+        background-position: 27% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 27% 0%
+    }
+    50% {
+        background-position: 74% 100%
+    }
+    100% {
+        background-position: 27% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 27% 0%
+    }
+    50% {
+        background-position: 74% 100%
+    }
+    100% {
+        background-position: 27% 0%
+    }
+}

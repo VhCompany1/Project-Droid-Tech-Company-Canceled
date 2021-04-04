@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(330deg, #1a1e1d, #565656, #21bb56);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+    height: 100vh;
+    overflow: hidden;
+}
+
+footer {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #23272a;
+}
+
+footer p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
+
+#anuncio {
+    text-align: right;
+    width: 0px;
+    height: 0px;
+}
+
+#imganuncio {
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#Dlogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#home {
+    color: rgb(201, 200, 199);
+    font: normal 12pt Arial;
+    text-align: left;
+}
+
+#commands {
+    color: rgb(161, 160, 160);
+    font: normal 15pt Arial;
+    text-align: left;
+}
+
+#top {
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    text-align: left;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 300px;
+    height: 300px;
+}
+
+.logo h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+    animation: loadH 1s ease-in-out;
+}
+
+.discord {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    animation: load 1s ease-in-out;
+}
+
+.discord a {
+    background-color: #53F7A0;
+    border: none;
+    padding: 10px;
+    border-radius: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font: bolder;
+}
+
+.discord p {
+    font: bold 700;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.discord p:hover {
+    animation: move 1s;
+    text-shadow: 3px 3px 3px black;
+    transform: rotate(1deg);
+}
+
+.discord2 a {
+    background-color: #53F7A0;
+    border: none;
+    padding: 10px;
+    border-radius: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font: bolder;
+}
+
+.discord2 p {
+    font: bold 700;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+.discord2 p:hover {
+    animation: move 1s;
+    text-shadow: 3px 3px 3px black;
+    transform: rotate(1deg);
+}
+
+.rodape {
+    margin-top: 90px;
+}
+
+.rodape iframe {
+    animation: loadD 1s ease-in-out;
+    height: 70px;
+}
+
+
+/* ANIMAÇÕES */
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 27% 0%
+    }
+    50% {
+        background-position: 74% 100%
+    }
+    100% {
+        background-position: 27% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 27% 0%
+    }
+    50% {
+        background-position: 74% 100%
+    }
+    100% {
+        background-position: 27% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 27% 0%
+    }
+    50% {
+        background-position: 74% 100%
+    }
+    100% {
+        background-position: 27% 0%
+    }
+}
+
+@keyframes move {
+    0% {
+        text-shadow: 3px 3px 3px black;
+    }
+    50% {
+        text-shadow: 3px 3px 3px rgb(77, 71, 71);
+    }
+    100% {
+        text-shadow: 3px 3px 3px black;
+    }
+}
+
+@keyframes load {
+    0% {
+        transform: translate(1000px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+
+@keyframes loadD {
+    0% {
+        transform: translateY(300px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes loadH {
+    0% {
+        opacity: 0;
+        transform: rotate(35deg);
+    }
+    100% {
+        opacity: 1;
+    }
+}

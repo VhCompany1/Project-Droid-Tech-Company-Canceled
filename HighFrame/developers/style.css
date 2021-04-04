@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(359deg, #7289da, #99aab5, #23272a);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 18s ease infinite;
+    -moz-animation: AnimationName 18s ease infinite;
+    animation: AnimationName 18s ease infinite;
+}
+
+#rodape {
+    color: white;
+    text-align: center;
+}
+
+#Dlogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#home {
+    color: rgb(201, 200, 199);
+    font: normal 12pt Arial;
+    text-align: left;
+}
+
+#commands {
+    color: rgb(161, 160, 160);
+    font: normal 15pt Arial;
+    text-align: left;
+}
+
+#top {
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    text-align: left;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 91%
+    }
+    50% {
+        background-position: 100% 10%
+    }
+    100% {
+        background-position: 0% 91%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 91%
+    }
+    50% {
+        background-position: 100% 10%
+    }
+    100% {
+        background-position: 0% 91%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 91%
+    }
+    50% {
+        background-position: 100% 10%
+    }
+    100% {
+        background-position: 0% 91%
+    }
+}
+
+.menu {
+    display: flex;
+    background-color: #23272a;
+    align-items: center;
+    height: 65px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.menu-main {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.menu-main img {
+    margin-top: 75px;
+    width: 50px;
+    height: 50px;
+}
+
+.menu-main img:nth-child(2) {
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.menu-main ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.menu-main ul li {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.menu-main ul li:nth-child(2) {
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.37);
+}
+
+.menu-main input {
+    display: none;
+}
+
+.menu-main label {
+    background-color: rgb(153, 130, 130);
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    margin-left: 800px;
+    border: 2px solid rgb(211, 210, 210);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* MAIN */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 70px;
+    margin: 40px 0px 40px 0px;
+}
+
+.main .develops {
+    display: flex;
+    color: white;
+    width: 500px;
+    text-align: center;
+    background-color: #7289da;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.main .developsD {
+    display: flex;
+    color: white;
+    width: 500px;
+    text-align: center;
+    background-color: #7289da;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
+    margin-right: 20px;
+}
+
+.main .develops:nth-child(2) {
+    margin-left: 170px;
+}
+
+.main .develops h2 {
+    width: 100px;
+}
+
+.main .develops p {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.main img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.main .developsF {
+    display: flex;
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    background-color: #7289da;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
+}
+
+.main .developsF h2 {
+    margin-top: 50px;
+    width: 450px;
+}
+
+.main .developsF p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.main .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .name p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-dev {
+    display: flex;
+}
+
+
+/* END MAIN */
+
+
+/* RODAPE */
+
+footer {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #23272a;
+}
+
+footer p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
